@@ -1,0 +1,19 @@
+{
+  "name": "202301-w2ch1-ana-catana",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild:dev": "rimraf dist/",
+    "prebuild": "rimraf dist/",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^4.0.7"
+  }
+}
