@@ -34,14 +34,25 @@ body{
 
     &__text{
       font-family: typography.$font-family-paragraph;
+      font-size: 14px;
       font-weight:700; 
       padding: 30px;
     }
 
-    // &__prices{
-    //   border: 1px solid yellow;
-    //   padding: 200px;
-    // }
+    &__prices{
+      border: 1px solid yellow;
+      display: flex;
+      justify-content: flex-start;
+      padding: 20px;
+      font-family: typography.$font-family-paragraph;
+    }
+
+    &__button{
+      background-color: colors.$text-color;
+      font-family: typography.$font-family-paragraph;
+      flex-direction: center;
+      font-size: 14px;
+    }
     
 }
 
